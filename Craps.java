@@ -10,6 +10,7 @@ public class Craps
 {
 
    public static boolean playGame() {
+        Scanner in = new Scanner(System.in);
         System.out.print("Would you like to play Craps (Y/n)?");
         String playGame = in.nextLine();
         if (playGame.substring(0,1).equalsIgnoreCase("y"))
@@ -22,6 +23,7 @@ public class Craps
     }
     
    public static void instructions() {
+        Scanner in = new Scanner(System.in);
         System.out.print("Would you like instructions? (Y/n)?");
         String playGame = in.nextLine();
         if (playGame.substring(0,1).equalsIgnoreCase("y"))
@@ -32,6 +34,7 @@ public class Craps
         }
     }
    public static int pointOne() {
+       Scanner in = new Scanner(System.in);
        Die die1 = new Die();
        System.out.print("Press <Enter> to roll...");
        String pause = in.nextLine();
@@ -47,6 +50,7 @@ public class Craps
        
     }
    public static int pointTwo() {
+       Scanner in = new Scanner(System.in);
        Die die1 = new Die();
        System.out.print("Press <Enter> to roll...");
        String pause = in.nextLine();
@@ -80,7 +84,6 @@ public class Craps
    }
     
    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
         boolean exit = false;
         playGame();
         while(playGame() == true) {
