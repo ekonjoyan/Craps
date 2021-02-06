@@ -1,14 +1,18 @@
 
 /**
- * Write a description of class Craps here.
+ * The Craps program.
+ * The Craps program simuates the playing of the game craps.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Eddie Konjoyan
+ * @version 2/6/2021
  */
 import java.util.Scanner;
 public class Craps
 {
-
+    /*
+     * 
+     * 
+     */
    public static boolean playGame() {
         Scanner in = new Scanner(System.in);
         System.out.print("Would you like to play Craps (Y/n)?");

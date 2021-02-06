@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Die here.
+ * The Die class.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Eddie Konjoyan
+ * @version 2/6/20
  */
 public class Die
 {
@@ -21,10 +21,8 @@ public class Die
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * roll method rolls one die
+     * @return the value rolled
      */
     public int roll()
     {
