@@ -104,3 +104,19 @@ public class Craps
     System.out.println("Thanks for playing!");
    }
 }
+
+
+/* 
+
+COMMENTS FROM THE INSTRUCTOR:
+
+This works just fine, and you did an especially nice job of splitting up
+the code into some coherent static methods--nice application of that 
+strategy. It looks like maybe you didn't get to implement the default
+(Y/n) strategy, in which the user can just hit [Enter] to indicate the
+default (capitalized) response. Otherwise, nice work!
+
+SCORE: 15/15
+
+*/
+
